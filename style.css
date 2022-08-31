@@ -46,12 +46,13 @@ main {
 }
 
 .question h3 {
-  margin-top: 60px;
+  margin: 60px 0 25px 0;
 }
 
-.question p {
+.question .answer {
   line-height: 24px;
   font-size: 14px;
+  margin: 25px 0;
 }
 
 .question a {

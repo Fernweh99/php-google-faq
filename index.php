@@ -149,7 +149,7 @@
         <div class="question">
           <h2><?= $title ?></h2>
           <?php foreach ($value["answers"] as $answer) { ?>
-            <p><?= $answer ?></p>
+            <div class="answer"><?= $answer ?></div>
             <?php } ?>
           </div>
           <?php endforeach; ?>
