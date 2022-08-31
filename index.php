@@ -122,10 +122,29 @@
 </head>
 <body>
   <header>
+    <div class="row">
+      <div class="col">
+        <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_clr_74x24px.svg" alt="logo google">
+        <a href="#">Privacy e Termini</a>
+      </div>
+      <div class="col">
+        <button>Accedi</button>
+      </div>
+    </div>
+    <nav>
+      <div class="row">
+        <div class="col">
+          <a href="">Introduzione</a>
+          <a href="">Norme sulla Privacy</a>
+          <a href="">Termini di servizio</a>
+          <a href="">Tecnologie</a>
+          <a class="active" href="">Domande frequenti</a>
+        </div>
+      </div>
+    </nav>
   </header>
   <main>
     <div class="container">
-
       <?php foreach ($answers_by_question as $title => $value) : ?>
         <div class="question">
           <h2><?= $title ?></h2>
