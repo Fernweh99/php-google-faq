@@ -155,5 +155,13 @@
           <?php endforeach; ?>
       </div>
   </main>
+  <footer>
+    <div class="container">
+      <a href="">Google</a>
+      <a href="">Tutto su Google</a>
+      <a href="">Privacy</a>
+      <a href="">Termini</a>
+    </div>
+  </footer>
 </body>
 </html>
